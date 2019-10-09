@@ -1,0 +1,9 @@
+version: '3'
+services:
+  conda:
+    build: .
+    ports:
+      - "7777:7777"
+    volumes:
+      - ./notebooks:/notebooks
+#    command: ["/opt/conda/bin/jupyter notebook --notebook-dir=/notebooks --ip='*' --port=7777 --no-browser"]
