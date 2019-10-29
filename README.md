@@ -1,8 +1,7 @@
 # Docker setup for DataWorkshop challenge 5 in 2019
 
-
 # Purpose
-Use this repo if you have a problem with running conda locally or simply don't want to install it.
+Use this repo if you have a problem with running [anaconda](https://www.anaconda.com/) locally or simply don't want to install it.
 
 # Content
 Created container has already installed fbprophet needed for challenge 5.
